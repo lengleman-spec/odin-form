@@ -114,3 +114,7 @@ button {
   font-weight: 600;
   text-decoration: none;
 }
+
+input[type="password"]:invalid {
+  border: 1px solid red;
+}
