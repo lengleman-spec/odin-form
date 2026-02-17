@@ -10,7 +10,7 @@ body {
   background-color: lightgray;
   display: grid;
   grid-template-columns: 2fr 3fr;
-  /* column-gap: 5rem; */
+
   font-family: "Monoserrat", sans-serif;
   min-height: 100vh;
 }
@@ -51,7 +51,7 @@ h2 {
   padding: 1rem 0;
 }
 
-p {
+.description {
   margin: 2rem 0;
 }
 
@@ -67,6 +67,12 @@ form {
 label {
   padding-bottom: 0.3rem;
   letter-spacing: 1px;
+}
+
+input {
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid #aaa;
 }
 
 .name-container,
@@ -85,6 +91,26 @@ label {
   padding-bottom: 1rem;
 }
 
-.name {
-  padding-bottom: 1rem;
+.bottom-container {
+  margin: 2rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #596d48;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.log-in {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.log-in a {
+  color: #596d48;
+  font-weight: 600;
+  text-decoration: none;
 }
