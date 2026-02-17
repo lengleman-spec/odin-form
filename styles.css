@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 p {
@@ -69,16 +69,27 @@ label {
   letter-spacing: 1px;
 }
 
-.name-container {
+.name-container,
+.email-phone {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
 }
 
-.name {
+.name,
+.phone,
+.email {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
+}
+
+.email,
+.phone {
+  padding-bottom: 1rem;
+}
+
+.name {
+  padding-bottom: 1rem;
 }
