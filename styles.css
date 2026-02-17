@@ -70,23 +70,18 @@ label {
 }
 
 .name-container,
-.email-phone {
+.email-phone,
+.password-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 3rem;
 }
 
-.name,
-.phone,
-.email {
+.container-sm {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* padding: 1rem 0; */
-}
-
-.email,
-.phone {
   padding-bottom: 1rem;
 }
 
